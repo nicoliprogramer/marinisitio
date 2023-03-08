@@ -1,0 +1,33 @@
+{
+  "name": "ejercicio-2",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "jwt.js",
+  "scripts": {
+    "test": "node brenchmark.js",
+    "start": "0x server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^7.10.0",
+    "bcrypt": "^5.1.0",
+    "compression": "^1.7.4",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "log4js": "^6.7.1",
+    "minimist": "^1.2.7",
+    "mongoose": "^6.9.0",
+    "mongoose-store": "^0.2.1",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}
