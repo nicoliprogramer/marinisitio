@@ -6,7 +6,7 @@
   "main": "jwt.js",
   "scripts": {
     "test": "node brenchmark.js",
-    "start": "0x server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
